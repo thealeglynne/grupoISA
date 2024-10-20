@@ -1,0 +1,824 @@
+/* Asegúrate de que el html y body ocupen todo el espacio disponible */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Configuración del contenedor principal */
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 160vh; /* Mantiene el 100% del viewport */
+    margin: 0;
+    position: relative;
+    top: 60px;
+    width: 100%;
+
+    
+}
+.section2{
+      width: 100%; /* 100% del ancho */
+    height: 100%; /* 100% del alto del viewport */
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(75, 75, 75);
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    background-color: #000000;
+}
+.section4{
+    width: 100%; /* 100% del ancho */
+  height: 50%; /* 100% del alto del viewport */
+  scroll-snap-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(75, 75, 75);
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  background-color: #000000;
+}
+
+/* Contenedor principal */
+.content {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #000000; /* Color de fondo */
+    position: relative;
+    top: 260px; /* Ajuste de posición superior */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: flex-start; /* Alineación inicial a la izquierda */
+}
+.content4{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #000000; /* Color de fondo */
+    position: relative;
+    top: 260px; /* Ajuste de posición superior */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: flex-start; /* Alineación inicial a la izquierda */
+}
+    .image4 {
+        position: relative;
+        left: 750px; /* Mantener la posición original */
+        top: -20px; /* Ajuste de posición superior */
+        width: 50%; /* Asegura que la imagen no exceda el 50% del contenedor */
+        height: auto; /* Mantiene la relación de aspecto de la imagen */
+        border-radius: 10px; /* Bordes redondeados */
+    }
+    
+    /* Estilo del título */
+    .ttitle4 {
+       
+        position: relative;
+        top: 440px;
+        width: 50%;
+        left: 100px; /* Mantener la posición izquierda */
+        font-size: 3rem; /* Tamaño de fuente ajustado */
+        z-index: 200;
+        color: white; /* Color del texto */
+        margin-bottom: 10px; /* Espaciado inferior */
+    }
+    
+    /* Estilo del eslogan */
+    .sslogan4 {
+        position: relative;
+        top: 440px;
+        left: 100px; /* Mantener la posición izquierda */
+        font-size: 1.5rem; /* Tamaño de fuente */
+        width: 50%; /* Ancho del eslogan */
+        z-index: 200;
+        color: white; /* Color del texto */
+        margin-bottom: 20px; /* Espaciado inferior */
+    }
+
+.content2 {
+    background-color: #000000; /* Color de fondo */
+    position: relative;
+    top: 260px; /* Ajuste de posición superior */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: flex-; /* Alineación inicial a la izquierda */
+}
+.contex{
+    position: relative;
+    top: 150px;
+}
+/* Estilo de la imagen */
+.image {
+    position: relative;
+    left: 650px; /* Mantener la posición original */
+    top: -100px; /* Ajuste de posición superior */
+    width: 50%; /* Asegura que la imagen no exceda el 50% del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+}
+.image2 {
+    position: relative;
+    left: 400px; /* Mantener la posición original */
+    top: -180px; /* Ajuste de posición superior */
+    width: 80%; /* Asegura que la imagen no exceda el 50% del contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo del título */
+.ttitle {
+   
+    position: relative;
+    top: 300px;
+    width: 50%;
+    left: 0px; /* Mantener la posición izquierda */
+    font-size: 3rem; /* Tamaño de fuente ajustado */
+    z-index: 200;
+    color: white; /* Color del texto */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+
+/* Estilo del eslogan */
+.sslogan {
+    position: relative;
+    top: 300px;
+    width: 50%;
+    left: 0px; /* Mantener la posición izquierda */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    width: 50%; /* Ancho del eslogan */
+    z-index: 200;
+    color: white; /* Color del texto */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+@media (max-width: 1240px) {
+    .contex{
+        position: relative;
+        top: 0px;
+        font-size: 1rem;
+    }
+.content4{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #000000; /* Color de fondo */
+    position: relative;
+    top: 260px; /* Ajuste de posición superior */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: flex-start; /* Alineación inicial a la izquierda */
+}
+    .image4 {
+        position: relative;
+        left: 0px; /* Mantener la posición original */
+        top: -20px; /* Ajuste de posición superior */
+        width: 100%; /* Asegura que la imagen no exceda el 50% del contenedor */
+        height: auto; /* Mantiene la relación de aspecto de la imagen */
+        border-radius: 10px; /* Bordes redondeados */
+    }
+    
+    /* Estilo del título */
+    .ttitle4 {
+       
+        position: relative;
+        top: 400px;
+        width: 100%;
+        left: 0; /* Mantener la posición izquierda */
+        font-size: 3rem; /* Tamaño de fuente ajustado */
+        z-index: 200;
+        color: white; /* Color del texto */
+        margin-bottom: 10px; /* Espaciado inferior */
+    }
+    
+    /* Estilo del eslogan */
+    .sslogan4 {
+        position: relative;
+        top: 400px;
+        left: 150px; /* Mantener la posición izquierda */
+        font-size: 1.2rem; /* Tamaño de fuente */
+        width: 50%; /* Ancho del eslogan */
+        z-index: 200;
+        color: white; /* Color del texto */
+        margin-bottom: 20px; /* Espaciado inferior */
+    }
+    #buttonDid{
+        position: relative;
+        left: 100px;
+    }
+}
+@media (max-width: 1040px) {
+
+    table {
+        display: block;
+        width: 80%; /* Ocupar todo el ancho */
+        overflow-x: auto; /* Hacer que la tabla sea scrollable horizontalmente en pantallas pequeñas */
+    }
+    #section1,  #section3 {
+        background-color: #ffffff; /* Color de fondo para todas las secciones */
+        height: 100vh;
+    }
+  
+}
+@media (max-width: 920px) {
+
+    table {
+        display: block;
+        width: 80%; /* Ocupar todo el ancho */
+        overflow-x: auto; /* Hacer que la tabla sea scrollable horizontalmente en pantallas pequeñas */
+    }
+    #section1,  #section3 {
+        background-color: #ffffff; /* Color de fondo para todas las secciones */
+        height: 180vh;
+    }
+  
+}
+@media (max-width: 890px) {
+
+    table {
+        display: block;
+        width: 80%; /* Ocupar todo el ancho */
+        overflow-x: auto; /* Hacer que la tabla sea scrollable horizontalmente en pantallas pequeñas */
+    }
+    #section1,  #section3 {
+        background-color: #ffffff; /* Color de fondo para todas las secciones */
+        height: 190vh;
+    }
+}
+@media (max-width: 845px) {
+
+    table {
+        display: block;
+        width: 80%; /* Ocupar todo el ancho */
+        overflow-x: auto; /* Hacer que la tabla sea scrollable horizontalmente en pantallas pequeñas */
+    }
+    #section1,  #section3 {
+        background-color: #ffffff; /* Color de fondo para todas las secciones */
+        height: 210vh;
+    }
+}
+@media (max-width: 760px) {
+
+    table {
+        display: block;
+        width: 80%; /* Ocupar todo el ancho */
+        overflow-x: auto; /* Hacer que la tabla sea scrollable horizontalmente en pantallas pequeñas */
+    }
+    #section1,  #section3 {
+        background-color: #ffffff; /* Color de fondo para todas las secciones */
+        height: 240vh;
+    }
+    .contex{
+        position: relative;
+        top: 0px;
+        font-size: 1rem;
+    }
+}
+/* Estilos para la sección */
+.section4 {
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto en blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    height: 100vh;
+  }
+  
+  /* Estilos para el contenido */
+  .content {
+    max-width: 1200px;
+    text-align: center; /* Centrar el texto */
+    padding: 20px;
+  }
+  
+  /* Estilos para el título */
+  .title {
+    position: relative;
+    left: -100px;
+    width: 100%;
+    top: -200px;
+    font-size: 2.5rem; /* Tamaño grande para el título */
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffffff; /* Blanco puro para resaltar */
+  }
+  
+  /* Estilos para el eslogan/descripción */
+  .slogan {
+    
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #f0f0f0; /* Blanco suave */
+  }
+  
+  /* Estilos para la imagen */
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes ligeramente redondeados */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el botón */
+ 
+  
+  
+  
+@media (max-width: 650px) {
+
+    table {
+        display: block;
+        width: 80%; /* Ocupar todo el ancho */
+        overflow-x: auto; /* Hacer que la tabla sea scrollable horizontalmente en pantallas pequeñas */
+    }
+    #section1,  #section3 {
+        background-color: #ffffff; /* Color de fondo para todas las secciones */
+        height: 260vh;
+    }
+}
+@media (max-width: 570px) {
+    .content4{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: #000000; /* Color de fondo */
+        position: relative;
+        top: 260px; /* Ajuste de posición superior */
+        padding: 20px;
+        display: flex;
+        flex-direction: column; /* Apila los elementos verticalmente */
+        align-items: flex-start; /* Alineación inicial a la izquierda */
+    }
+        .image4 {
+            position: relative;
+            left: 0px; /* Mantener la posición original */
+            top: -20px; /* Ajuste de posición superior */
+            width: 100%; /* Asegura que la imagen no exceda el 50% del contenedor */
+            height: auto; /* Mantiene la relación de aspecto de la imagen */
+            border-radius: 10px; /* Bordes redondeados */
+        }
+        
+        /* Estilo del título */
+        .ttitle4 {
+           
+            position: relative;
+            top: 300px;
+            width: 100%;
+            left: 0px; /* Mantener la posición izquierda */
+            font-size: 3rem; /* Tamaño de fuente ajustado */
+            z-index: 200;
+            color: white; /* Color del texto */
+            margin-bottom: 10px; /* Espaciado inferior */
+        }
+        
+        /* Estilo del eslogan */
+        .sslogan4 {
+            position: relative;
+            top: 300px;
+            left: 100px; /* Mantener la posición izquierda */
+            font-size: 1.1rem; /* Tamaño de fuente */
+            width: 50%; /* Ancho del eslogan */
+            z-index: 200;
+            color: white; /* Color del texto */
+            margin-bottom: 20px; /* Espaciado inferior */
+        }
+      
+    table {
+        display: block;
+        width: 80%; /* Ocupar todo el ancho */
+        overflow-x: auto; /* Hacer que la tabla sea scrollable horizontalmente en pantallas pequeñas */
+    }
+    #section1,  #section3 {
+        background-color: #ffffff; /* Color de fondo para todas las secciones */
+        height: 280vh;
+    }
+    .contex{
+        position: relative;
+        top: 0px;
+        font-size: 1rem;
+    }
+    
+}
+@media (max-width: 1000px) {
+
+   #title4{
+    left: -200px;
+   }
+}
+/* Estilo responsivo para pantallas pequeñas */
+@media (max-width: 768px) {
+    
+
+    thead {
+        display: none; /* Ocultar el encabezado en pantallas pequeñas */
+    }
+
+    tbody, tr, td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        margin-bottom: 15px; /* Espacio entre filas */
+        border-bottom: 2px solid #ddd; /* Línea de separación entre filas */
+    }
+
+    td {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    td::before {
+        content: attr(data-label); /* Usa el contenido de la celda como etiqueta */
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-right: 10px;
+    }
+
+    .ttitle {
+        font-size: 2.5rem; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        top: 440px; /* Eliminar el desplazamiento superior en pantallas pequeñas */
+        left: 0; /* Alinear a la izquierda */
+        text-align: center; /* Centrar el texto */
+    }
+
+    .sslogan {
+        font-size: 1.2rem; /* Ajustar tamaño de fuente en pantallas pequeñas */
+        top: 440px; /* Eliminar el desplazamiento superior */
+        left: 0; /* Alinear a la izquierda */
+        text-align: center; /* Centrar el texto */
+        width: 90%; /* Aumentar el ancho para pantallas pequeñas */
+        margin: 20px auto; /* Centrar el eslogan */
+    }
+    .ttitle2 {
+        font-size: 2.5rem; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+        top: 340px; /* Eliminar el desplazamiento superior en pantallas pequeñas */
+        left: 0; /* Alinear a la izquierda */
+        text-align: center; /* Centrar el texto */
+    }
+
+    .sslogan2 {
+        font-size: 1.2rem; /* Ajustar tamaño de fuente en pantallas pequeñas */
+        top: 340px; /* Eliminar el desplazamiento superior */
+        left: 0; /* Alinear a la izquierda */
+        text-align: center; /* Centrar el texto */
+        width: 90%; /* Aumentar el ancho para pantallas pequeñas */
+        margin: 20px auto; /* Centrar el eslogan */
+    }
+
+    .image {
+        left: 0; /* Eliminar la alineación a la izquierda en pantallas pequeñas */
+        max-width: 100%; /* Asegurar que la imagen ocupe todo el ancho disponible */
+        margin: 20px auto; /* Centrar la imagen verticalmente */
+        top: 0; /* Eliminar el desplazamiento superior */
+    }
+
+    .content {
+        top: 100px; /* Ajustar la posición superior en pantallas pequeñas */
+        align-items: center; /* Centrar los elementos en pantallas pequeñas */
+    }
+   
+   
+}
+
+
+/* Estilo de la imagen */
+
+/* Estilo de la imagen */
+.section-image {
+    position: relative;
+    top: 200px;
+    left: 300px;
+    max-width: 1100px; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: 80vh; /* Mantiene la relación de aspecto de la imagen */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo responsivo adicional */
+@media (max-width: 600px) {
+    .section-title {
+        font-size: 2rem; /* Ajustar tamaño de fuente en pantallas pequeñas */
+    }
+
+    .slogan {
+        font-size: 1rem; /* Ajustar tamaño de fuente del eslogan en pantallas pequeñas */
+    }
+    table {
+        position: relative;
+        top: 420px;
+        width: 70%; /* Ocupar el 100% del ancho */
+        border-collapse: collapse; /* Colapsar bordes de las celdas */
+        margin-top: 20px; /* Espaciado superior */
+    }
+       
+    
+}
+.section-title {
+    font-size: 2rem; /* Ajustar tamaño de fuente en pantallas pequeñas */
+}
+
+.slogan {
+    font-size: 1rem; /* Ajustar tamaño de fuente del eslogan en pantallas pequeñas */
+}
+/* Configuración de cada sección */
+.section {
+    width: 100%; /* 100% del ancho */
+    height: 100%; /* 100% del alto del viewport */
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    
+}
+
+/* Estilos únicos para cada sección */
+#section1,  #section3 {
+    background-color: #000000; /* Color de fondo para todas las secciones */
+
+}
+.crearPost{
+    position: relative;
+    left: -0px;
+}
+/* Títulos de secciones */
+h1 {
+    color: #ffffff; /* Color del título */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+/* Botón de crear post */
+button {
+    font-size: 17px;
+    background-color: #ffffff; /* Color de fondo del botón */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+     border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transform: scale(1.05); /* Efecto de transición */
+    margin-bottom: 20px; /* Espaciado inferior */
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #101010; /* Color de fondo al pasar el mouse */
+}
+
+/* Tabla de posts */
+table {
+    position: relative;
+    top: 270px;
+    width: 100%; /* Ocupar el 100% del ancho */
+    border-collapse: collapse; /* Colapsar bordes de las celdas */
+    margin-top: 20px; /* Espaciado superior */
+}
+
+thead {
+    background-color: #f2f2f2; /* Fondo para el encabezado de la tabla */
+}
+
+th, td {
+    padding: 9px; /* Espaciado interno de celdas */
+    text-align: left; /* Alinear texto a la izquierda */
+    border: 1px solid #ddd; /* Borde para celdas */
+}
+
+th {
+    color: #ffffff; /* Color del texto del encabezado */
+    font-weight: bold; /* Negrita para el encabezado */
+}
+tr{
+    background-color: rgb(0, 0, 0);
+}
+
+/* Estilos para las acciones de los posts */
+button {
+    background-color: #ffffff; /* Color de fondo del botón */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 5px 10px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+.buttonD {
+
+    position: relative;top: -250px;
+    left: 30%;
+    width: auto; /* Cambiar el ancho para que se ajuste automáticamente al texto */
+    max-width: 100%; /* Evita que el botón exceda el ancho del contenedor */
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px; /* Mayor espaciado interno para mejor usabilidad en pantallas táctiles */
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .buttonD {
+        left: 10%; /* Ajusta el posicionamiento en pantallas más pequeñas */
+        top: -50%; /* Ajusta también el valor de 'top' si es necesario */
+    }
+}
+
+button:hover {
+    background-color: #2980b9; /* Color de fondo al pasar el mouse */
+}
+
+/* Botón de eliminación con color diferente */
+button[type="button"] {
+    background-color: #e74c3c; /* Color de fondo rojo */
+}
+
+button[type="button"]:hover {
+    background-color: #c0392b; /* Color al pasar el mouse */
+}
+
+/* Botones de paginación */
+button[disabled] {
+    background-color: #ccc; /* Color de fondo para botones deshabilitados */
+    cursor: not-allowed; /* Cambia el cursor al pasar por encima */
+}
+.ButtonNext{
+    position: relative;
+    left: 20px;
+    
+   
+}
+.footer {
+    width: 100%;
+    height: 5vh;
+    background-color: #000;
+    position: fixed;
+    top: 800px;
+    z-index: 1000;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* Asegura que el texto sea visible sobre el fondo oscuro */
+}
+.txf{
+    color: #ccc;
+    font-size: 0.8rem;
+}
+@media (min-height: 950px){
+    .footer {
+        width: 100%;
+        height: 5vh;
+        background-color: #000;
+        position: fixed;
+        top: 870px;
+        z-index: 1000;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff; /* Asegura que el texto sea visible sobre el fondo oscuro */
+    }
+}
+
+  
+  .content4 {
+    display: flex;
+    color: #fff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+.section4 {
+    background-color: #000; 
+    color: #fff; 
+    padding: 40px;
+  }
+  
+  .content4 {
+    position: relative;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+  }
+  
+
+  .info4 {
+    grid-column: span 1;
+  }
+  
+  .info-title4 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .info-list4 {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .info-item4 {
+    margin-bottom: 10px;
+  }
+  
+  .info-link4 {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .info-link4:hover {
+    color: #ccc; 
+  }
+  
+  
+  .social-media4 {
+    grid-column: span 1;
+  }
+  
+  .social-title4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .social-handle4 {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons4 {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-link4 {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-link4:hover {
+    color: #ccc;
+  }
+  
+  
+  .contact-info4 {
+    grid-column: span 1;
+  }
+  
+  .contact-title4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-detail4 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-link4 {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link4:hover {
+    color: #ccc;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .content4 {
+      grid-template-columns: 1fr; 
+    }
+  
+    .section4 {
+      padding: 20px;
+    }
+  }
+  
+  
