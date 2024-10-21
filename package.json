@@ -2,12 +2,14 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/thealeglynne/prueba-Teecnica-grupo-ISA",
+  "homepage": "https://github.com/thealeglynne/grupoISA",
   "scripts": {
+    
     "dev": "next dev",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },

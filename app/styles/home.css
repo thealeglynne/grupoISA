@@ -675,7 +675,7 @@ button[disabled] {
     height: 5vh;
     background-color: #000;
     position: fixed;
-    top: 800px;
+    top: 95%;
     z-index: 1000;
     left: 0px;
     display: flex;
@@ -693,7 +693,7 @@ button[disabled] {
         height: 5vh;
         background-color: #000;
         position: fixed;
-        top: 870px;
+
         z-index: 1000;
         left: 0px;
         display: flex;
@@ -705,6 +705,8 @@ button[disabled] {
 
   
   .content4 {
+    position: relative;
+    top: -00px;
     display: flex;
     color: #fff;
     flex-wrap: wrap;
